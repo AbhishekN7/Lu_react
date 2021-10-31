@@ -1,0 +1,131 @@
+body{
+  background: lightgray;
+  background: linear-gradient(#2BC0E4,#EAECC6);
+}
+
+.App {
+  margin-left: 10%;
+  width: 80%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+.search{
+  padding-left: 10px;
+  padding-right: 10px;
+  /* background-color: red; */
+  display: flex;
+}
+
+.search-input{
+  width:90%;
+  height: 40px;
+  font-size: 18px;
+  border: 1px solid lightgray;
+  text-indent: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  outline: none;
+}
+
+
+.search-btn{
+  width: 10%;
+  height: 45px;
+  background-color: rgb(67, 67, 201);
+  color: wheat;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.articles{
+  padding: 20px;
+  /* background-color: red; */
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.article{
+  width: 24%;
+  /* background-color: yellow; */
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0 0 5px gray;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.news-img{
+  height: 200px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.news-details{
+  padding:10px;
+}
+
+.btn{
+  padding: 15px 35px;
+  background-color:rgb(67, 67, 201) ;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.title{
+  color: rgb(0, 0, 0);
+}
+
+.author{
+  color: gray;
+}
+
+h4{
+  margin: 2px;
+}
+
+.welcome{
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
